@@ -1,0 +1,84 @@
+
+:root{
+    --card-shadow:#0e1015;
+    --card-primary:	cornflowerblue;
+    --card-secondary:#364155;
+}
+
+.main {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+.col-left{
+    width: 75%;
+}
+.col-right{
+    width: 25%;
+}
+
+/* cadetblue
+    coral
+   cornflowerblue 
+*/
+.Search {
+    margin-left: 5rem;
+    margin-left: 5rem;
+}
+
+.container-flex {
+    width: auto;
+    /* margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem; */
+    display: flex;
+
+}
+
+.container-block {
+    text-align: center;
+    margin-right: auto;
+    margin-right: left;
+    display: block;
+}
+
+/* CARD */
+.Card {
+	background: var(--card-primary);
+	width: 250px;
+	height: 300px;
+    border-radius: 25px;
+    text-align: center;
+    position: absolute;
+}
+
+/* .Card::after {
+	background: red;
+} */
+
+.Card  p:nth-of-type(1) {
+    color:white;
+    margin: 15px 0px 0px 0px;
+    font-size: 50px;
+}
+.Card  p:nth-of-type(2) {
+    color:white;
+    margin: 15px 0px 0px 0px;
+    font-size: 20px;
+}
+.Card  p:nth-of-type(3) {
+    margin: 15px 0px 0px 0px;
+    color:white;
+}
+
+/*Card shadow*/
+.Card-Shadow{
+    z-index: -1;
+	background: var(--card-shadow);
+    width: 250px;
+	height: 300px;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}

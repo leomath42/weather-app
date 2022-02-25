@@ -1,15 +1,18 @@
 import "./Search.css"
+import RoundButton from './RoundButton';
+import InputLine from './InputLine';
 
 const Search = () => {
     return (
         <div className="Search">
             <div>
-                <input placeholder="Search here !"></input>
+                <InputLine  color='orange' textColor="white" placeholder="Search here !"/>
             </div>
             <div>
-                <button onClick={()=>console.count()}>Submit !</button>
+                <RoundButton onClick={()=>console.count()} color='red'>Submit !!</RoundButton>
             </div>
 
+            
         </div>
     )
 }

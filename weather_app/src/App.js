@@ -1,16 +1,29 @@
 import logo from './logo.svg';
 import Search from './components/Search';
-import InputLine from './components/InputLine';
+import Card from './components/Card';
 
 import './App.css';
-import RoundButton from './components/RoundButton';
+import Title from './components/Title';
 
 function App() {
   return (
     <div className="App">
-      <Search/>
-      <InputLine  color='orange' placeholder="teste"/>
-      <RoundButton color='red'>Submit !!</RoundButton>
+      <div className="container-flex main">
+
+        <div className="col-left">
+          <div className="container-block">
+            <Title textColor="white" className="Title"> Weather App</Title>
+            <Search/>
+          </div>  
+        </div>
+        <div className="col-right">
+          <div className="container-block">
+              {/* <Title textColor="white" className="Title"> Weather App</Title>
+              <Search/> */}
+              <Card/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
