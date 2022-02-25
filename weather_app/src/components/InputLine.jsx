@@ -1,21 +1,18 @@
 import styled from '@emotion/styled';
-
-const colors = {
-    'blue': ['blue','rgb(0, 0, 255, 0.5)'],
-    'orange':['rgb(242, 107, 5)', 'rgb(242, 107, 5, 0.5)']
-}
+import colors from './colors';
 
 const InputLine =  styled.input`
     width: ${props => props.width};
     border-width: 0px 0px 2px 0px;
-    border-bottom-color: ${props => colors[props.color] ? colors[props.color][0] : 'black'};
+    border-bottom-color: ${props => colors[props.color] ? colors[props.color][0] : colors.default[0]};
+    border-bottom-color: ${undefined};
     border-style: solid;
     background:inherit;
     text-align: center;
     
     &:focus {
         outline: none;
-        border-bottom-color: ${props => colors[props.color] ? colors[props.color][1] : 'rgb(0, 0, 0, 0.5)'};
+        border-bottom-color: ${props => colors[props.color] ? colors[props.color][1] : colors.default[1]};
     }
 `
 export default InputLine;
