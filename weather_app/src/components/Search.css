@@ -1,0 +1,42 @@
+.Search {
+    display:inline-flex;
+    padding: 5px;
+}
+
+.Search {
+    vertical-align: middle;
+    flex-direction: row;
+    align-items: center;
+    --search-border-color: rgb(242, 107, 5);
+    border-bottom-color: var(--search-border-color);
+}
+
+.Search > div {
+    border-bottom-color: inherit;
+}
+
+.Search > :first-child input {
+    border-bottom: 5px;
+    border-width: 0px 0px 2px 0px;
+    border-bottom-color:inherit;
+    border-style: solid;
+    background:inherit;
+    text-align: center;
+}
+.Search > :first-child input:focus {
+    outline: none;
+    border-color: inherit;
+    border-color: rgb(242, 107, 5, 0.5);
+}
+
+.Search > :last-child{
+    margin: 0 0 0 20px
+}
+
+.Search > :last-child >  button {
+    /* background-color: red; */
+    /* color: white; */
+    /* padding: 8px;
+    border: 0em;
+    border-radius: 1em; */
+}
