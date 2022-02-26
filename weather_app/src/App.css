@@ -28,9 +28,6 @@
 
 .container-flex {
     width: auto;
-    /* margin-top: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem; */
     display: flex;
 
 }
@@ -43,7 +40,7 @@
 }
 
 /* CARD */
-.Card {
+.Card-Main {
 	background: var(--card-primary);
 	width: 250px;
 	height: 300px;
@@ -52,33 +49,63 @@
     position: absolute;
 }
 
-/* .Card::after {
-	background: red;
-} */
+.Card-Main span {
+    font-size: 100px;
+}
 
-.Card  p:nth-of-type(1) {
+.Card-Main  p:nth-of-type(1) {
     color:white;
     margin: 15px 0px 0px 0px;
     font-size: 50px;
 }
-.Card  p:nth-of-type(2) {
+.Card-Main  p:nth-of-type(2) {
     color:white;
     margin: 15px 0px 0px 0px;
     font-size: 20px;
 }
-.Card  p:nth-of-type(3) {
+.Card-Main  p:nth-of-type(3) {
     margin: 15px 0px 0px 0px;
     color:white;
 }
+sup {
+ font-size:30px;
+} 
+
+/* #414d6a */
 
 /*Card shadow*/
-.Card-Shadow{
+.Card-Shadow-1 {
     z-index: -1;
-	background: var(--card-shadow);
+	background: #414d6a;
     width: 250px;
 	height: 300px;
     border-radius: 25px;
     margin-top: 15px;
     margin-left: 15px;
-    
+    position: absolute;
+}
+
+.Card-Shadow-2 {
+    z-index: -2;
+	background: var(--card-shadow);
+    width: 250px;
+	height: 300px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.Card:hover > .Card-Main {
+    z-index: -2;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.Card:hover > .Card-Shadow-1 {
+    display: none;
+}
+
+.Card:hover > .Card-Shadow-2 {
+    display: none;
 }

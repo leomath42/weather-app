@@ -18,9 +18,7 @@ function App() {
         </div>
         <div className="col-right">
           <div className="container-block">
-              {/* <Title textColor="white" className="Title"> Weather App</Title>
-              <Search/> */}
-              <Card/>
+              <Card icon="&#127783;" temperature='30' name='Rio de Janeiro' description='Few clouds'/>
           </div>
         </div>
       </div>
