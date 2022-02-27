@@ -50,22 +50,26 @@
 }
 
 .Card-Main span {
-    font-size: 100px;
+    font-size: 80px;
+    color: #424242;
+    margin-top:25px;
 }
 
 .Card-Main  p:nth-of-type(1) {
-    color:white;
+    color:#424242;
     margin: 15px 0px 0px 0px;
     font-size: 50px;
 }
-.Card-Main  p:nth-of-type(2) {
-    color:white;
-    margin: 15px 0px 0px 0px;
-    font-size: 20px;
+
+.Card-Main p:nth-of-type(2) {
+	color: #424242;
+	margin: 15px 2px 0px 2px;
+	font-size: 20px;
+	overflow-wrap: break-word;
 }
 .Card-Main  p:nth-of-type(3) {
     margin: 15px 0px 0px 0px;
-    color:white;
+    color:#424242;
 }
 sup {
  font-size:30px;
@@ -109,3 +113,22 @@ sup {
 .Card:hover > .Card-Shadow-2 {
     display: none;
 }
+
+
+.deep-night {
+    background: linear-gradient(0deg, #3f2fff, #272628);
+}
+/* 040404 */
+.deep-day{
+ background: linear-gradient(180deg, orange,yellow);
+}
+
+p, .deep-night,  span, .deep-night{
+    color:#040404!important;
+}
+
+p, .deep-day,  span, .deep-day{
+    color:#424242;
+}
+
+

@@ -1,16 +1,18 @@
 import React from "react";
-import styled from '@emotion/styled';
 import PropTypes from "prop-types";
 
 
-const Card = ({icon, temperature, name, description}) => {
+const Card = ({icon, temperature, name, description, isDayTime}) => {
+
+    const cardColor  = isDayTime ? "deep-day" : "deep-night";
+
     return (
         <>
         <div className="Card">
-            <div className="Card-Main">
+            <div className={"Card-Main " + cardColor}>
                 <div>
                 <div>
-                    <span>{icon}</span>
+                    <span className={"wi " + icon}/>
                     <p>{temperature} <sup>°C</sup></p>
                     <p>{name}</p>
                     <p>{description}</p>
@@ -26,7 +28,7 @@ const Card = ({icon, temperature, name, description}) => {
 }
 
 Card.propTypes = {
-    icon: PropTypes.symbol,
+    icon: PropTypes.string,
     temperature: PropTypes.number,
     name: PropTypes.string,
     description: PropTypes.string,
