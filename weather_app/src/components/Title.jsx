@@ -4,8 +4,6 @@ import colors from './colors';
 const Title =  styled.h1`
     color:${props => props.textColor};
     font-weight: bold;
-    background:inherit;
-    // text-align: center;
-    
+    background:inherit;    
 `
 export default Title;

@@ -13,7 +13,7 @@ function App() {
 
   async function searchCity(name) {
     if(name.length > 0){
-      var urlLoaction = `http://dataservice.accuweather.com/locations/v1/search?apikey=1OHFIiYJApxdbcQsOr8FnOAdbD3BJQSA&q=${name}&language=pt-br`
+      var urlLoaction = `https://dataservice.accuweather.com/locations/v1/search?apikey=1OHFIiYJApxdbcQsOr8FnOAdbD3BJQSA&q=${name}&language=pt-br`
       
       var response = await fetch(urlLoaction, { mode:'cors',});
       var locationData = await response.json();
@@ -22,7 +22,7 @@ function App() {
 
       if(locationData.length > 0){
         var locationKey = locationData[0].Key
-        var urlLoaction = `http://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=1OHFIiYJApxdbcQsOr8FnOAdbD3BJQSA&language=pt-br&details=false`
+        var urlLoaction = `https://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=1OHFIiYJApxdbcQsOr8FnOAdbD3BJQSA&language=pt-br&details=false`
         
         var response = await fetch(urlLoaction, { mode:'cors',});
         var weatherData = await response.json();
