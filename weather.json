@@ -1,0 +1,685 @@
+[
+    {
+      "Version": 1,
+      "Key": "2726570",
+      "Type": "City",
+      "Rank": 65,
+      "LocalizedName": "Brasil",
+      "EnglishName": "Brasil",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "SAM",
+        "LocalizedName": "América do Sul",
+        "EnglishName": "South America"
+      },
+      "Country": {
+        "ID": "BR",
+        "LocalizedName": "Brasil",
+        "EnglishName": "Brazil"
+      },
+      "AdministrativeArea": {
+        "ID": "BA",
+        "LocalizedName": "Bahia",
+        "EnglishName": "Bahia",
+        "Level": 1,
+        "LocalizedType": "Estado",
+        "EnglishType": "State",
+        "CountryID": "BR"
+      },
+      "TimeZone": {
+        "Code": "BRT",
+        "Name": "America/Bahia",
+        "GmtOffset": -3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": -14.857,
+        "Longitude": -40.855,
+        "Elevation": {
+          "Metric": {
+            "Value": 972,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 3188,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "ParentCity": {
+        "Key": "32043",
+        "LocalizedName": "Vitória da Conquista",
+        "EnglishName": "Vitória da Conquista"
+      },
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Vitória da Conquista",
+          "EnglishName": "Vitória da Conquista"
+        },
+        {
+          "Level": 3,
+          "LocalizedName": "Vitória da Conquista",
+          "EnglishName": "Vitória da Conquista"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "FutureRadar",
+        "MinuteCast",
+        "Radar"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "2728187",
+      "Type": "City",
+      "Rank": 65,
+      "LocalizedName": "Brasil",
+      "EnglishName": "Brasil",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "SAM",
+        "LocalizedName": "América do Sul",
+        "EnglishName": "South America"
+      },
+      "Country": {
+        "ID": "BR",
+        "LocalizedName": "Brasil",
+        "EnglishName": "Brazil"
+      },
+      "AdministrativeArea": {
+        "ID": "MG",
+        "LocalizedName": "Minas Gerais",
+        "EnglishName": "Minas Gerais",
+        "Level": 1,
+        "LocalizedType": "Estado",
+        "EnglishType": "State",
+        "CountryID": "BR"
+      },
+      "TimeZone": {
+        "Code": "BRT",
+        "Name": "America/Sao_Paulo",
+        "GmtOffset": -3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": -18.893,
+        "Longitude": -48.263,
+        "Elevation": {
+          "Metric": {
+            "Value": 668,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 2191,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "ParentCity": {
+        "Key": "33809",
+        "LocalizedName": "Uberlândia",
+        "EnglishName": "Uberlândia"
+      },
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Uberlândia",
+          "EnglishName": "Uberlândia"
+        },
+        {
+          "Level": 3,
+          "LocalizedName": "Uberlândia",
+          "EnglishName": "Uberlândia"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "FutureRadar",
+        "MinuteCast",
+        "Radar"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "2730397",
+      "Type": "City",
+      "Rank": 65,
+      "LocalizedName": "Brasil",
+      "EnglishName": "Brasil",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "SAM",
+        "LocalizedName": "América do Sul",
+        "EnglishName": "South America"
+      },
+      "Country": {
+        "ID": "BR",
+        "LocalizedName": "Brasil",
+        "EnglishName": "Brazil"
+      },
+      "AdministrativeArea": {
+        "ID": "SP",
+        "LocalizedName": "São Paulo",
+        "EnglishName": "São Paulo",
+        "Level": 1,
+        "LocalizedType": "Estado",
+        "EnglishType": "State",
+        "CountryID": "BR"
+      },
+      "TimeZone": {
+        "Code": "BRT",
+        "Name": "America/Sao_Paulo",
+        "GmtOffset": -3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": -22.931,
+        "Longitude": -46.55,
+        "Elevation": {
+          "Metric": {
+            "Value": 850,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 2788,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "ParentCity": {
+        "Key": "36347",
+        "LocalizedName": "Bragança Paulista",
+        "EnglishName": "Bragança Paulista"
+      },
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Bragança Paulista",
+          "EnglishName": "Bragança Paulista"
+        },
+        {
+          "Level": 3,
+          "LocalizedName": "Bragança Paulista",
+          "EnglishName": "Bragança Paulista"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "FutureRadar",
+        "MinuteCast",
+        "Radar"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "2728173",
+      "Type": "City",
+      "Rank": 85,
+      "LocalizedName": "Brasil",
+      "EnglishName": "Brasil",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "SAM",
+        "LocalizedName": "América do Sul",
+        "EnglishName": "South America"
+      },
+      "Country": {
+        "ID": "BR",
+        "LocalizedName": "Brasil",
+        "EnglishName": "Brazil"
+      },
+      "AdministrativeArea": {
+        "ID": "MG",
+        "LocalizedName": "Minas Gerais",
+        "EnglishName": "Minas Gerais",
+        "Level": 1,
+        "LocalizedType": "Estado",
+        "EnglishType": "State",
+        "CountryID": "BR"
+      },
+      "TimeZone": {
+        "Code": "BRT",
+        "Name": "America/Sao_Paulo",
+        "GmtOffset": -3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": -18.594,
+        "Longitude": -48.698,
+        "Elevation": {
+          "Metric": {
+            "Value": 748,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 2453,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "ParentCity": {
+        "Key": "39351",
+        "LocalizedName": "Tupaciguara",
+        "EnglishName": "Tupaciguara"
+      },
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Tupaciguara",
+          "EnglishName": "Tupaciguara"
+        },
+        {
+          "Level": 3,
+          "LocalizedName": "Tupaciguara",
+          "EnglishName": "Tupaciguara"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "FutureRadar",
+        "MinuteCast",
+        "Radar"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "2727660",
+      "Type": "City",
+      "Rank": 85,
+      "LocalizedName": "Brasil",
+      "EnglishName": "Brasil",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "SAM",
+        "LocalizedName": "América do Sul",
+        "EnglishName": "South America"
+      },
+      "Country": {
+        "ID": "BR",
+        "LocalizedName": "Brasil",
+        "EnglishName": "Brazil"
+      },
+      "AdministrativeArea": {
+        "ID": "MG",
+        "LocalizedName": "Minas Gerais",
+        "EnglishName": "Minas Gerais",
+        "Level": 1,
+        "LocalizedType": "Estado",
+        "EnglishType": "State",
+        "CountryID": "BR"
+      },
+      "TimeZone": {
+        "Code": "BRT",
+        "Name": "America/Sao_Paulo",
+        "GmtOffset": -3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": -18.993,
+        "Longitude": -49.448,
+        "Elevation": {
+          "Metric": {
+            "Value": 610,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 2000,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "ParentCity": {
+        "Key": "33792",
+        "LocalizedName": "Ituiutaba",
+        "EnglishName": "Ituiutaba"
+      },
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Ituiutaba",
+          "EnglishName": "Ituiutaba"
+        },
+        {
+          "Level": 3,
+          "LocalizedName": "Ituiutaba",
+          "EnglishName": "Ituiutaba"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "FutureRadar",
+        "MinuteCast",
+        "Radar"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "2727851",
+      "Type": "City",
+      "Rank": 85,
+      "LocalizedName": "Brasil",
+      "EnglishName": "Brasil",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "SAM",
+        "LocalizedName": "América do Sul",
+        "EnglishName": "South America"
+      },
+      "Country": {
+        "ID": "BR",
+        "LocalizedName": "Brasil",
+        "EnglishName": "Brazil"
+      },
+      "AdministrativeArea": {
+        "ID": "MG",
+        "LocalizedName": "Minas Gerais",
+        "EnglishName": "Minas Gerais",
+        "Level": 1,
+        "LocalizedType": "Estado",
+        "EnglishType": "State",
+        "CountryID": "BR"
+      },
+      "TimeZone": {
+        "Code": "BRT",
+        "Name": "America/Sao_Paulo",
+        "GmtOffset": -3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": -18.598,
+        "Longitude": -46.526,
+        "Elevation": {
+          "Metric": {
+            "Value": 846,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 2774,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "ParentCity": {
+        "Key": "33795",
+        "LocalizedName": "Patos de Minas",
+        "EnglishName": "Patos de Minas"
+      },
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Patos de Minas",
+          "EnglishName": "Patos de Minas"
+        },
+        {
+          "Level": 3,
+          "LocalizedName": "Patos de Minas",
+          "EnglishName": "Patos de Minas"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "FutureRadar",
+        "MinuteCast",
+        "Radar"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "2310195",
+      "Type": "City",
+      "Rank": 85,
+      "LocalizedName": "Brasil",
+      "EnglishName": "Brasil",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "SAM",
+        "LocalizedName": "América do Sul",
+        "EnglishName": "South America"
+      },
+      "Country": {
+        "ID": "BR",
+        "LocalizedName": "Brasil",
+        "EnglishName": "Brazil"
+      },
+      "AdministrativeArea": {
+        "ID": "MT",
+        "LocalizedName": "Mato Grosso",
+        "EnglishName": "Mato Grosso",
+        "Level": 1,
+        "LocalizedType": "Estado",
+        "EnglishType": "State",
+        "CountryID": "BR"
+      },
+      "TimeZone": {
+        "Code": "AMT",
+        "Name": "America/Cuiaba",
+        "GmtOffset": -4,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": -14.455,
+        "Longitude": -53.213,
+        "Elevation": {
+          "Metric": {
+            "Value": 623,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 2043,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Campinápolis",
+          "EnglishName": "Campinápolis"
+        },
+        {
+          "Level": 3,
+          "LocalizedName": "Campinápolis",
+          "EnglishName": "Campinápolis"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "FutureRadar",
+        "MinuteCast",
+        "Radar"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "2734948",
+      "Type": "City",
+      "Rank": 85,
+      "LocalizedName": "Brasil",
+      "EnglishName": "Brasil",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "SAM",
+        "LocalizedName": "América do Sul",
+        "EnglishName": "South America"
+      },
+      "Country": {
+        "ID": "BR",
+        "LocalizedName": "Brasil",
+        "EnglishName": "Brazil"
+      },
+      "AdministrativeArea": {
+        "ID": "RS",
+        "LocalizedName": "Rio Grande do Sul",
+        "EnglishName": "Rio Grande Do Sul",
+        "Level": 1,
+        "LocalizedType": "Estado",
+        "EnglishType": "State",
+        "CountryID": "BR"
+      },
+      "TimeZone": {
+        "Code": "BRT",
+        "Name": "America/Sao_Paulo",
+        "GmtOffset": -3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": -28.731,
+        "Longitude": -52.841,
+        "Elevation": {
+          "Metric": {
+            "Value": 368,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 1207,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "ParentCity": {
+        "Key": "45498",
+        "LocalizedName": "Espumoso",
+        "EnglishName": "Espumoso"
+      },
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Espumoso",
+          "EnglishName": "Espumoso"
+        },
+        {
+          "Level": 3,
+          "LocalizedName": "Espumoso",
+          "EnglishName": "Espumoso"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "FutureRadar",
+        "MinuteCast",
+        "Radar"
+      ]
+    },
+    {
+        "Version": 1,
+        "Key": "45449",
+        "Type": "City",
+        "Rank": 11,
+        "LocalizedName": "Rio de Janeiro",
+        "EnglishName": "Rio de Janeiro",
+        "PrimaryPostalCode": "",
+        "Region": {
+          "ID": "SAM",
+          "LocalizedName": "América do Sul",
+          "EnglishName": "South America"
+        },
+        "Country": {
+          "ID": "BR",
+          "LocalizedName": "Brasil",
+          "EnglishName": "Brazil"
+        },
+        "AdministrativeArea": {
+          "ID": "RJ",
+          "LocalizedName": "Rio de Janeiro",
+          "EnglishName": "Rio De Janeiro",
+          "Level": 1,
+          "LocalizedType": "Estado",
+          "EnglishType": "State",
+          "CountryID": "BR"
+        },
+        "TimeZone": {
+          "Code": "BRT",
+          "Name": "America/Sao_Paulo",
+          "GmtOffset": -3,
+          "IsDaylightSaving": false,
+          "NextOffsetChange": null
+        },
+        "GeoPosition": {
+          "Latitude": -22.877,
+          "Longitude": -43.228,
+          "Elevation": {
+            "Metric": {
+              "Value": 1,
+              "Unit": "m",
+              "UnitType": 5
+            },
+            "Imperial": {
+              "Value": 3,
+              "Unit": "ft",
+              "UnitType": 0
+            }
+          }
+        },
+        "IsAlias": false,
+        "SupplementalAdminAreas": [
+          {
+            "Level": 2,
+            "LocalizedName": "Rio de Janeiro",
+            "EnglishName": "Rio de Janeiro"
+          },
+          {
+            "Level": 3,
+            "LocalizedName": "Rio de Janeiro",
+            "EnglishName": "Rio de Janeiro"
+          }
+        ],
+        "DataSets": [
+          "AirQualityCurrentConditions",
+          "AirQualityForecasts",
+          "Alerts",
+          "FutureRadar",
+          "MinuteCast",
+          "Radar"
+        ]
+      }
+  ]
